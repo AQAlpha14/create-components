@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   Accordion,
   AccordionContent,
@@ -11,9 +10,6 @@ export default function Home() {
     <>
       <div className="container mx-auto">
         <div className="grid grid-cols-2 space-x-6">
-
-          <FormControl />
-
           <div>
             <Accordion type="single" collapsible>
               <AccordionItem value="item-1">
