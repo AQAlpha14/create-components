@@ -2,20 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.display1 {
+  @apply font-[600] !leading-snug xl:text-5xl lg:text-4xl md:text-3xl text-lg;
+}
+.display2 {
+  @apply font-[500] !leading-normal xl:text-4xl lg:text-3xl md:text-2xl text-base;
+}
+.display3 {
+  @apply font-[400] !leading-normal xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-[15px];
+}
+.display4 {
+  @apply font-[400] !leading-normal xl:text-2xl lg:text-xl text-sm;
+}
+.display5 {
+  @apply font-[400] !leading-normal xl:text-xl lg:text-lg text-sm;
+}
+.display6 {
+  @apply font-[300] !leading-normal lg:text-lg text-[13px];
+}
+.displayPara {
+  @apply !leading-normal font-[300] xl:text-[16px] text-xs;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.secPadding {
+  @apply py-4 sm:py-8 md:py-14;
 }
