@@ -4,11 +4,11 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <>
-            <div className='secPadding bg-slate-400 h-full'>
+            <section className='secPadding '>
                 <Heading1 
-                heading={`Hero Section`}
+                blackHeading={`Hero Section`}
                 />
-            </div>
+            </section>
         </>
     )
 }

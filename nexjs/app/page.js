@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <div>Home Page</div>
+
     </>
   );
 }
